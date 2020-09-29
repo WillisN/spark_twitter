@@ -2,7 +2,7 @@ import json
 import requests_oauthlib
 
 def secure():
-    path = '/Users/willis/Desktop/Projets Code/Python/SparkStreaming/secret/'
+    path = '.../secret/'
     # Load Twitter API secrets from a json file
     secrets = json.loads(open(path + 'secrets.json').read())
     api_key = secrets['API_key']
